@@ -21,7 +21,7 @@ jobs:
         SONAR_TOKEN: ${{ secrets.SONAR_TOKEN }}
       with:
         args: >
-          -Dsonar.organization={{ secret.ORG }}
+          -Dsonar.organization=swathi11
           -Dsonar.projectKey={{ secret.PRJ_KEY }}
           -Dsonar.verbose=true
   
